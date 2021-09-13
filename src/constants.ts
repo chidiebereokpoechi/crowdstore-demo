@@ -1,0 +1,10 @@
+export const DATA_LOCATION = 'data'
+export const FILES_LOCATION = 'files'
+export const DOWNLOAD_LOCATION = 'download'
+export const CHAIN_LOCATION = DATA_LOCATION + '/chain.json'
+export const KEYS_LOCATION = DATA_LOCATION + '/keys.json'
+export const PEERS_LOCATION = DATA_LOCATION + '/peers.json'
+export const ID_LOCATION = DATA_LOCATION + '/id'
+export const FILE_LEDGER_LOCATION = DATA_LOCATION + '/file-ledger.json'
+export const MAX_CHUNK_SIZE = 1 * 1024 * 1024
+export const TRACKER_LOCATION = '192.168.43.191:5000' // Static IP in the network used for testing
